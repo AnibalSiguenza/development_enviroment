@@ -31,3 +31,11 @@ It was also needed to add the specific path to the clangd in the coc configurati
 }
 ```
 
+# Dependencies
+
+This working version is working with:
+
+* nodejs : v23.2.0
+* clangd : 14.0.6
+* clang-format : 10.0.0-4ubuntu1
+
