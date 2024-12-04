@@ -23,3 +23,11 @@ source {REPOSITOY_DIR}/configuration_files/zshrc
 ```
 
 It is better to not directly link to not affect ad-hoc installations which modify the .zshrc such as anaconda
+
+It was also needed to add the specific path to the clangd in the coc configuration by runnin :CocConfig and pasting
+```json
+{
+    "clangd.path": "/usr/bin/clangd-14"
+}
+```
+
