@@ -2,6 +2,12 @@
 
 This is my personal development enviroment based on the use of VIM and oh-my-shell
 
+The vim and fzf are submodules so I recommend a shallow clone:
+
+```sh
+git clone --recursive --shallow-submodules https://github.com/AnibalSiguenza/development_enviroment
+```
+
 # Instalation 
 
 To install the dependencies simply run 
